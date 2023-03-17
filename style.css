@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
 * {
   font-family: "Manrope", sans-serif;
   margin: 0;
@@ -15,13 +15,20 @@ body {
   background-color: hsl(217, 19%, 24%);
   display: inline-block;
   text-align: center;
+  border-radius: 1rem;
+  padding: 40px;
+  max-width: 550px;
+  position: relative;
 }
 #adviceNumber {
   color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
 }
 #adviceText {
   font-size: 28px;
   color: hsl(193, 38%, 86%);
+  margin: 30px 0;
 }
 #break {
   margin: 20px 0;
@@ -34,8 +41,10 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50rem;
-  margin: 0 auto;
-  margin-bottom: -25px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: none;
   cursor: pointer;
   transition: box-shadow 0.2s;
@@ -43,10 +52,13 @@ body {
 #dice:hover {
   box-shadow: 0 0 20px hsla(150, 100%, 66%, 80);
 }
-.attribution {
+#attribution {
+  position: absolute;
+  bottom: 20px;
+  color: hsl(193, 38%, 86%);
   font-size: 11px;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+#attribution a {
+  color: hsl(150, 100%, 66%);
 }
