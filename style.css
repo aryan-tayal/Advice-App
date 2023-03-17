@@ -42,8 +42,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(150, 100%, 66%);
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   border-radius: 50rem;
   position: absolute;
   top: 100%;
