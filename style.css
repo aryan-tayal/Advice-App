@@ -23,7 +23,8 @@ body {
 #adviceNumber {
   color: hsl(150, 100%, 66%);
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 6px;
+  font-size: 0.8rem;
 }
 #adviceText {
   font-size: 28px;
